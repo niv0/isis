@@ -163,6 +163,20 @@
             <scope>test</scope>
         </dependency>
 
+        <!-- Raspberry PI GPIO read/write -->
+        <dependency>
+            <groupId>com.pi4j</groupId>
+            <artifactId>pi4j-core</artifactId>
+            <version>1.2-SNAPSHOT</version>
+        </dependency>
+
+        <!-- Used to access IsisContext -->
+        <dependency>
+            <groupId>org.apache.isis.core</groupId>
+            <artifactId>isis-core-runtime</artifactId>
+        </dependency>
+
+
     </dependencies>
 
 </project>
