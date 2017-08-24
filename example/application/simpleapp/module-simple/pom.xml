@@ -163,6 +163,12 @@
             <scope>test</scope>
         </dependency>
 
+
+        <dependency>
+            <groupId>org.isisaddons.module.settings</groupId>
+            <artifactId>isis-module-settings-dom</artifactId>
+            <version>1.15.0-SNAPSHOT</version>
+        </dependency>
     </dependencies>
 
 </project>

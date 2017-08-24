@@ -32,7 +32,8 @@ public class DomainAppAppManifest extends AppManifestAbstract {
     public static final Builder BUILDER = Builder.forModules(
                     SimpleModuleDomSubmodule.class,
                     DomainAppApplicationModuleFixtureSubmodule.class,
-                    DomainAppApplicationModuleServicesSubmodule.class
+                    DomainAppApplicationModuleServicesSubmodule.class,
+                    org.isisaddons.module.settings.SettingsModule.class
             )
             .withConfigurationPropertiesFile(DomainAppAppManifest.class,
                     "isis.properties",
